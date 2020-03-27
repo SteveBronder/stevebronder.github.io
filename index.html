@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Steve Bronder">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Stan Developer">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.28efaa82099e1d59f8a909df089d578c.css">
+
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Steve Bronder">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Steve Bronder">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Steve Bronder">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Steve Bronder">
+  <meta property="og:description" content="Stan Developer"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2018-06-28T00:00:00&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Steve Bronder</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Steve Bronder</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="hero" class="home-section wg-hero   " style="background-color: #fff;" >
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-md-6 order-md-1 text-center text-md-left align-self-center">
+
+
+    
+    <div><h2 id="my-name-is-steve-bronder-and-im-a-developer-specializing-in-computational-statistics">My name is <strong>Steve Bronder</strong> and I&rsquo;m a <strong>Developer</strong> specializing in <strong>Computational Statistics</strong></h2>
+<p>My C++ compiles pretty often which is cool. I enjoy working on Open Source projects</p>
+</div>
+    
+
+    
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+    <p class="mt-4">
+      <a href="/authors/admin"  class="btn btn-primary btn-lg  page-scroll">Know more</a>
+
+      
+      
+        
+        
+        
+        
+          
+        
+      <a href="/#contact"  class="btn btn-lg btn-outline-primary page-scroll">Let&rsquo;s Have Coffee</a>
+      
+    </p>
+    
+
+  
+  
+  </div>
+  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
+    <img class="hero-img img-fluid" src="/img/boat.jpg" alt="">
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
+  itemref="person-email person-address">
+  <div class="col-lg-5">
+    <div id="profile">
+      
+      
+      <img class="img-fluid" src="/img/me_close.jpeg" itemprop="image" alt="Avatar">
+      
+    </div>
+    <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="/#contact" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://twitter.com/BreveStonder" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://github.com/stevebronder" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="col-lg-7" itemprop="description">
+
+    <div class="portrait-title">
+      <h2 itemprop="name">Steve Bronder</h2>
+      <h3 class="d-inline-block" itemprop="jobTitle">Stan Developer,</h3>
+
+      
+      <h3 class="d-inline-block" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        <a href="mc-stan.org" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Columbia University</span>
+          </a>
+      </h3>
+      
+    </div>
+
+    <link itemprop="url" href="">
+
+
+
+    <p>Steve Bronder is a developer for the Stan programming language. His research interest include high performance computing, Bayesian statistics, and open source development. After finishing his masters in Quantitative Methods In the Social Sciences at Columbia University, he began working as a Data Scientist at Capital One. There he focused on Risk Modeling for collateralized debt obligations and teaching business colleagues how to automate the boring parts of their jobs.</p>
+<p>Steve is originally from Pittsburgh, Pennsylvania and now lives in New York City. He has a cat named Hopscotch and enjoys cooking, playing Dungeons &amp; Dragons / Magic: The Gathing, and working on other open source projects.</p>
+
+
+    
+    <a href="https://github.com/SteveBronder/resume/blob/master/stevebronder-cv.pdf" class="btn btn-primary btn-lg"><i class="fas fa-download mr-2" aria-hidden="true"></i>Download Resume</a>
+    
+
+
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="skills" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-12 section-heading">
+    <h1>Skills</h1>
+    <p>I AM GOOD AT THESE AND OTHER THINGS</p>
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      <div class="featurette-icon"><i class="fas fa-tachometer-alt"></i></div>
+      <h3>C++</h3>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      <div class="featurette-icon"><i class="fas fa-skiing-nordic"></i></div>
+      <h3>R</h3>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      <div class="featurette-icon"><i class="fas fa-flask"></i></div>
+      <h3>Python</h3>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:"></div>
+      <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
+      <h3>Forecasting</h3>
+      
+    </div>
+  </div>
+  
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-12 text-center section-heading">
+    <h1>Experience</h1>
+    <p>PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE</p>
+    
+  </div>
+  
+  
+  
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="card rounded-0 border-0 shadow-sm experience">
+      <div class="card-body rounded-0 border-0">
+        <h4 class="card-title exp-company my-0"><a href="mc-stan.org" target="_blank"
+            rel="noopener">Stan</a></h4>
+        <p class="card-title text-muted exp-title my-0">Developer</p>
+        <div class="text-muted exp-meta">
+          Feb 2020 –
+          
+          Present
+          
+          
+          <span class="middot-divider"></span>
+          <span>New York City</span>
+          
+        </div>
+        <div class="card-text">Building Language Features For:</p>
+<ul>
+<li>Sparse Matrices</li>
+<li>Automatic Differentiation</li>
+<li>GPU Computing</li>
+<li>Parallelization</li>
+</ul></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="card rounded-0 border-0 shadow-sm experience">
+      <div class="card-body rounded-0 border-0">
+        <h4 class="card-title exp-company my-0"><a href="capitalone.com" target="_blank"
+            rel="noopener">Capital Onew</a></h4>
+        <p class="card-title text-muted exp-title my-0">Data Scientist</p>
+        <div class="text-muted exp-meta">
+          May 2018 –
+          
+          Feb 2020
+          
+          
+          <span class="middot-divider"></span>
+          <span>New York CIty</span>
+          
+        </div>
+        <div class="card-text"><ul>
+<li>Developed risk models for CDO style contracts</li>
+<li>Built Machine Learning Models to Impute Moody&rsquo;s Risk Ratings</li>
+<li>Automated Manual Reporting</li>
+</ul></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="card rounded-0 border-0 shadow-sm experience">
+      <div class="card-body rounded-0 border-0">
+        <h4 class="card-title exp-company my-0"><a href="zurich.com" target="_blank"
+            rel="noopener">Zurich Insurance</a></h4>
+        <p class="card-title text-muted exp-title my-0">Predictive Analyst Intern</p>
+        <div class="text-muted exp-meta">
+          May 2016 –
+          
+          Aug 2016
+          
+          
+          <span class="middot-divider"></span>
+          <span>New York City</span>
+          
+        </div>
+        <div class="card-text"><ul>
+<li>Wrote Predictive Models for Losses on Corporate Auto Contracts</li>
+<li>Constructed new validation metrics for assesing loss model performance</li>
+<li>Created Web Apps for managers to track timelines for analytics projects</li>
+</ul></div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Publications</h1>
+    <p>Stuff that I liked so much I wrote a whole lot about them</p>
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+    
+    <a href="/publication/gpu-stan-paper/">
+      <img src="/publication/gpu-stan-paper/featured_hu96838acbeca7ec1f03d29e976af8871f_228066_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/gpu-stan-paper/" itemprop="url">GPU Support for The Stan Math Library</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2019-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-07-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Steve Bronder</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/rok-cesnovar/">Rok Češnovar</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/davor-sluga/">Davor Sluga</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jure-demsar/">Jure Demšar</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tadej-ciglaric/">Tadej Ciglarič</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sean-talts/">Sean Talts</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/erik-strumbelj/">Erik Štrumbelj</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>July 2019</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Arvix
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Building A GPU backend for the Stan Math Library.
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1907.01063" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+    
+    <a href="/publication/tsp-gpu/">
+      <img src="/publication/tsp-gpu/featured_hu1eb4cb36f0a678e235bd9d08b5c51953_308788_918x517_fill_q90_lanczos_smart1.jpeg" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/tsp-gpu/" itemprop="url">Approximations using GPUs for Large Traveling Salesman Problems</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2019-04-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-04-07 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Steve Bronder</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/haoyan-min/">Haoyan Min</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>April 2019</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      Columbia University Electrical Engineering Student Symposium
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      You can do a ton of Monte Carlo samples at the same time to get good traveling salesman soutions
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/SteveBronder/tsp_gpu/blob/master/docs/columbus_paper_steve_bronder_Haoyan_Min.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    
+    
+    
+    
+    <a href="/publication/mlr-forecasting/">
+      <img src="/publication/mlr-forecasting/featured_hue951baec8bfb439269e1f46ad8d4b7b1_60505_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/publication/mlr-forecasting/" itemprop="url">Tuning machine learning and time series models using ML methodologies</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2016-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-09-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Steve Bronder</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>September 2016</time>
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      R In Finance 2017
+    
+  </span>
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Tuning machine learning models for forecasting projects
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/SteveBronder/mlrForecastingPaper/blob/master/Steve_Bronder_Fc_Ml_mlr.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 text-center section-heading">
+    <h1>Contact</h1>
+    <p>Let&rsquo;s Get Coffee or Beers</p>
+  </div>
+  <div class="col-12">
+    
+  </div>
+  <div class="col-md-6">
+    
+
+    
+    
+    
+    
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" action="https://formspree.io/sbronder@stevebronder.com">
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control rounded-0 w-100" id="inputName"
+            placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control rounded-0 w-100" id="inputEmail"
+            placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control rounded-0" id="inputMessage" rows="5"
+            placeholder="Message" required></textarea>
+        </div>
+        <button type="submit"
+          class="btn btn-outline-primary px-3 py-2">Send</button>
+      </form>
+    </div>
+    
+
+  </div>
+  <div class="col-md-6">
+    <ul class="fa-ul" itemscope>
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-map-marker-alt mt-2" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">New York City</span>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+  </div>
+  <div class="col-12">
+    
+  </div>
+</div>
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.281fa180ccfa1769ea3c7dd430814861.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+        <p class="powered-by">
+          <a href="/privacy/">Privacy Policy</a>
+        </p>
+        
+        <p>
+          
+          Powered by
+          <a href="https://themefisher.com" target="_blank" rel="noopener">themefisher</a> for
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/brevestonder" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/SteveBronder/stevebronder.github.io/issues" target="_blank" rel="noopener" title="File an Issue"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

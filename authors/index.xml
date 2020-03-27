@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Steve Bronder</title>
+    <link>/authors/</link>
+    <description>Recent content in Authors on Steve Bronder</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Steve Bronder is a developer for the Stan programming language. His research interest include high performance computing, Bayesian statistics, and open source development. After finishing his masters in Quantitative Methods In the Social Sciences at Columbia University, he began working as a Data Scientist at Capital One. There he focused on Risk Modeling for collateralized debt obligations and teaching business colleagues how to automate the boring parts of their jobs.&lt;/p&gt;
+&lt;p&gt;Steve is originally from Pittsburgh, Pennsylvania and now lives in New York City. He has a cat named Hopscotch and enjoys cooking, playing Dungeons &amp;amp; Dragons / Magic: The Gathing, and working on other open source projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Davor Sluga</title>
+      <link>/authors/davor-sluga/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/davor-sluga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erik Štrumbelj</title>
+      <link>/authors/erik-strumbelj/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/erik-strumbelj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jure Demšar</title>
+      <link>/authors/jure-demsar/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/jure-demsar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rok Češnovar</title>
+      <link>/authors/rok-cesnovar/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/rok-cesnovar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sean Talts</title>
+      <link>/authors/sean-talts/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/sean-talts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tadej Ciglarič</title>
+      <link>/authors/tadej-ciglaric/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/tadej-ciglaric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haoyan Min</title>
+      <link>/authors/haoyan-min/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/haoyan-min/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
