@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Steve Bronder</title>
-    <link>/publication/</link>
+    <link>http://stevebronder.com/publication/</link>
     <description>Recent content in Publications on Steve Bronder</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://stevebronder.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GPU Support for The Stan Math Library</title>
-      <link>/publication/gpu-stan-paper/</link>
+      <link>http://stevebronder.com/publication/gpu-stan-paper/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/gpu-stan-paper/</guid>
+      <guid>http://stevebronder.com/publication/gpu-stan-paper/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;img src=&#34;cholesky_speedup.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>Approximations using GPUs for Large Traveling Salesman Problems</title>
-      <link>/publication/tsp-gpu/</link>
+      <link>http://stevebronder.com/publication/tsp-gpu/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/tsp-gpu/</guid>
+      <guid>http://stevebronder.com/publication/tsp-gpu/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;img src=&#34;https://camo.githubusercontent.com/43cebc5c03ae429e8d3112a534f5f4509aa5c9f0/68747470733a2f2f692e696d6775722e636f6d2f476a614b46414a2e6a7067&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
@@ -36,10 +36,10 @@
     
     <item>
       <title>Tuning machine learning and time series models using ML methodologies</title>
-      <link>/publication/mlr-forecasting/</link>
+      <link>http://stevebronder.com/publication/mlr-forecasting/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/mlr-forecasting/</guid>
+      <guid>http://stevebronder.com/publication/mlr-forecasting/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;img src=&#34;https://github.com/SteveBronder/mlrForecastingPaper/blob/master/paper_figures/garch_order.png?raw=true&#34; alt=&#34;&#34;&gt;&lt;/p&gt;

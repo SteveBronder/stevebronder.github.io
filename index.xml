@@ -2,68 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steve Bronder</title>
-    <link>/</link>
+    <link>http://stevebronder.com/</link>
     <description>Recent content on Steve Bronder</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://stevebronder.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/talk/</link>
+      <link>http://stevebronder.com/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>/talk/</guid>
+      <guid>http://stevebronder.com/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>http://stevebronder.com/publication/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>http://stevebronder.com/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>/courses/</link>
+      <link>http://stevebronder.com/courses/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/courses/</guid>
+      <guid>http://stevebronder.com/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>http://stevebronder.com/post/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/</guid>
+      <guid>http://stevebronder.com/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/</link>
+      <link>http://stevebronder.com/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/</guid>
+      <guid>http://stevebronder.com/slides/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

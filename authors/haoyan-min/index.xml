@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haoyan Min on Steve Bronder</title>
-    <link>/authors/haoyan-min/</link>
+    <link>http://stevebronder.com/authors/haoyan-min/</link>
     <description>Recent content in Haoyan Min on Steve Bronder</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/authors/haoyan-min/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://stevebronder.com/authors/haoyan-min/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Approximations using GPUs for Large Traveling Salesman Problems</title>
-      <link>/publication/tsp-gpu/</link>
+      <link>http://stevebronder.com/publication/tsp-gpu/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/tsp-gpu/</guid>
+      <guid>http://stevebronder.com/publication/tsp-gpu/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;img src=&#34;https://camo.githubusercontent.com/43cebc5c03ae429e8d3112a534f5f4509aa5c9f0/68747470733a2f2f692e696d6775722e636f6d2f476a614b46414a2e6a7067&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
